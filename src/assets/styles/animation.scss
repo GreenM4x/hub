@@ -1,0 +1,23 @@
+@keyframes wave {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(25deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+@keyframes next-bounce {
+  0% {
+    transform: rotate(90deg) translateX(0);
+  }
+  75% {
+    transform: rotate(90deg) translateX(-20px);
+  }
+  100% {
+    transform: rotate(90deg) translateX(0);
+  }
+}
