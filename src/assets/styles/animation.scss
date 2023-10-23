@@ -21,3 +21,14 @@
     transform: rotate(90deg) translateX(0);
   }
 }
+
+@keyframes card-slides-left {
+  0% {
+    transform: translateX(150vw);
+  }
+}
+@keyframes card-slides-right {
+  0% {
+    transform: translateX(-150vw);
+  }
+}

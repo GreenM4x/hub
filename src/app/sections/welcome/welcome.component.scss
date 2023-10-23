@@ -43,12 +43,14 @@
     .welcome-title {
       display: flex;
       align-items: center;
+      font-variant-caps: small-caps;
+      font-size: 4rem;
 
       .wave {
         padding: 10px 20px 20px 20px;
         transform: rotate(100deg);
         animation: wave 3s ease-in-out infinite;
-        font-size: 3.5rem;
+        font-size: 4.5rem;
       }
     }
 
